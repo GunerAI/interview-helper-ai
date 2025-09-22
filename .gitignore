@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Secrets
+.env
+
+# Outputs
+plan.json
+output.md
+interview_questions.json
