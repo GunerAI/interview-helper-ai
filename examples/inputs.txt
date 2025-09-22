@@ -1,0 +1,35 @@
+--- Example 1 ---
+Job Title: Security Operations Analyst
+Interviewer Title: Hiring Manager
+Job Description:
+- Monitor SIEM alerts (Splunk/Sentinel), triage incidents, escalate as needed
+- Phishing investigation, EDR containment with Defender XDR
+- Create playbooks and improve detection coverage
+Resume:
+- 2 years SOC Tier 1/2, Splunk SPL, Sentinel KQL
+- Phishing triage, malware sandboxing, Any.Run, URLScan, VirusTotal
+- XSOAR automation, Entra ID incident actions, endpoint isolation
+
+--- Example 2 ---
+Job Title: Data Engineer
+Interviewer Title: Recruiter
+Job Description:
+- Build ETL pipelines in Python, Airflow, Spark
+- Manage data quality and reliability, CI/CD for data jobs
+- Collaborate with analytics teams on requirements and KPIs
+Resume:
+- 3 years Python, PySpark, orchestration with Airflow
+- AWS Glue, Athena, S3, Redshift
+- Implemented data validation (Great Expectations), unit tests, observability
+
+--- Example 3 ---
+Job Title: Product Manager (FinTech)
+Interviewer Title: Hiring Manager
+Job Description:
+- Own card disputes experience, reduce fraud losses
+- Drive roadmap via user research and data insights
+- Collaborate with Engineering, Risk, Compliance
+Resume:
+- PM experience shipping 0→1 features, strong SQL, experimentation
+- Led anti-fraud initiative reducing chargebacks 18%
+- Built cross-functional rituals, authored PRDs, ran usability tests
