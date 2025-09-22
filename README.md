@@ -31,9 +31,13 @@ This app uses **prompt chaining** with the OpenAI API:
 - [OpenAI Python SDK](https://pypi.org/project/openai/)
 - [python-dotenv](https://pypi.org/project/python-dotenv/)
 
-Install dependencies:
+---
+
+## Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+---
 
 ## ⚙️ Setup
 
