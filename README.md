@@ -54,16 +54,19 @@ pip install -r requirements.txt
     ```bash
     git clone https://github.com/<your-username>/interview-helper.git
     cd interview-helper
-```
+	```
+---
 
 ## 3.	Install dependencies:
     ```bash
     pip install -r requirements.txt
-```
+	```
+---
 
 ## 4.	Add your OpenAI API key in .env:
     OPENAI_API_KEY=sk-your-key-here
 
+---
 
 ## 5.	(Optional) Override the model in .env:
     OPENAI_MODEL=gpt-4o-mini
