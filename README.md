@@ -56,15 +56,15 @@ This app uses **prompt chaining** with the OpenAI API:
 ## 2.	Create a virtual environment (recommended):
     
 ```bash
-    git clone https://github.com/<your-username>/interview-helper.git
-    cd interview-helper
+	git clone https://github.com/<your-username>/interview-helper.git
+	cd interview-helper
 ```
 
 
 ## 3.	Install dependencies:
     
 ```bash
-    pip install -r requirements.txt
+	pip install -r requirements.txt
 ```
 
 
@@ -84,7 +84,7 @@ This app uses **prompt chaining** with the OpenAI API:
 Run from the terminal:
 
 ```bash
-python app.py --temperature 0.7 --top_p 1.0 --max_tokens 1200
+	python app.py --temperature 0.7 --top_p 1.0 --max_tokens 1200
 ```
 
 You’ll be guided to enter:
