@@ -149,10 +149,6 @@ Pull requests are welcome! Please:
 3. Submit a PR with clear description
 ```
 
-## 📜 License
-```markdown
-MIT License © 2025 [Your Name]
-```
 
 
 
