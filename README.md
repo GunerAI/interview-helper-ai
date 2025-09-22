@@ -34,7 +34,6 @@ This app uses **prompt chaining** with the OpenAI API:
 Install dependencies:
 ```bash
 pip install -r requirements.txt
-```bash
 
 ## ⚙️ Setup
 
