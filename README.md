@@ -47,33 +47,37 @@ pip install -r requirements.txt
    ```bash
    git clone https://github.com/<your-username>/interview-helper.git
    cd interview-helper
-	```bash
+```
 ---
 
 ## 2.	Create a virtual environment (recommended):
     ```bash
     git clone https://github.com/<your-username>/interview-helper.git
     cd interview-helper
+```
 
 ## 3.	Install dependencies:
     ```bash
     pip install -r requirements.txt
+```
 
 ## 4.	Add your OpenAI API key in .env:
     OPENAI_API_KEY=sk-your-key-here
+
 
 ## 5.	(Optional) Override the model in .env:
     OPENAI_MODEL=gpt-4o-mini
 
 ---
 
-```markdown
+
 ## 🚀 Usage
 
 Run from the terminal:
 
 ```bash
 python app.py --temperature 0.7 --top_p 1.0 --max_tokens 1200
+```
 
 You’ll be guided to enter:
 	•	Job Title
@@ -102,6 +106,7 @@ See [`examples/inputs.txt`](examples/inputs.txt) for sample sets.
   - 2 years SOC Tier 1/2, Splunk SPL, Sentinel KQL
   - Phishing triage, malware sandboxing, Any.Run, URLScan, VirusTotal
   - XSOAR automation, Entra ID incident actions, endpoint isolation
+```
 
 ## 📄 Example Output (Markdown)
 ```markdown
@@ -118,7 +123,7 @@ SOC Manager interviewing for Cyber Security Analyst role.
 - Review recent phishing cases and practice explaining triage.
 - Brush up on MITRE ATT&CK tactics related to your resume.
 - Prepare concise examples of collaboration with SOC teams.
-
+```
 ---
 
 ## 🛠 Development Notes
@@ -131,6 +136,7 @@ SOC Manager interviewing for Cyber Security Analyst role.
 - Outputs are saved automatically:
   - `plan.json` → Planning JSON
   - `output.md` → Final Markdown
+```
 
 ## 🤝 Contributing
 ```markdown
@@ -138,11 +144,12 @@ Pull requests are welcome! Please:
 1. Fork the repo
 2. Create a feature branch
 3. Submit a PR with clear description
+```
 
 ## 📜 License
 ```markdown
 MIT License © 2025 [Your Name]
-
+```
 
 
 
