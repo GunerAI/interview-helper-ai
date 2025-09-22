@@ -34,9 +34,11 @@ This app uses **prompt chaining** with the OpenAI API:
 ---
 
 ## Install dependencies:
+	
 	```bash
 	pip install -r requirements.txt
 	```
+	
 ---
 
 ## ⚙️ Setup
@@ -52,14 +54,16 @@ This app uses **prompt chaining** with the OpenAI API:
 
 
 ## 2.	Create a virtual environment (recommended):
-    ```bash
+    
+	```bash
     git clone https://github.com/<your-username>/interview-helper.git
     cd interview-helper
 	```
 
 
 ## 3.	Install dependencies:
-    ```bash
+    
+	```bash
     pip install -r requirements.txt
 	```
 
