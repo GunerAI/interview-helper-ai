@@ -100,7 +100,7 @@ Outputs:
 ---
 
 ## 📂 Example Inputs
-```markdown
+
 See [`examples/inputs.txt`](examples/inputs.txt) for sample sets.
 
 ### Example 1
@@ -114,10 +114,10 @@ See [`examples/inputs.txt`](examples/inputs.txt) for sample sets.
   - 2 years SOC Tier 1/2, Splunk SPL, Sentinel KQL
   - Phishing triage, malware sandboxing, Any.Run, URLScan, VirusTotal
   - XSOAR automation, Entra ID incident actions, endpoint isolation
-```
+
 
 ## 📄 Example Output (Markdown)
-```markdown
+
 ## Role Context
 SOC Manager interviewing for Cyber Security Analyst role.
 
@@ -131,11 +131,11 @@ SOC Manager interviewing for Cyber Security Analyst role.
 - Review recent phishing cases and practice explaining triage.
 - Brush up on MITRE ATT&CK tactics related to your resume.
 - Prepare concise examples of collaboration with SOC teams.
-```
+
 ---
 
 ## 🛠 Development Notes
-```markdown
+
 - Uses the **OpenAI Responses API** (not the old Chat Completions API).
 - Implements a **two-stage prompt chain**:
   1. Planning → JSON plan with steps, assumptions, success criteria.
@@ -144,15 +144,15 @@ SOC Manager interviewing for Cyber Security Analyst role.
 - Outputs are saved automatically:
   - `plan.json` → Planning JSON
   - `output.md` → Final Markdown
-```
+
 
 ## 🤝 Contributing
-```markdown
+
 Pull requests are welcome! Please:
 1. Fork the repo
 2. Create a feature branch
 3. Submit a PR with clear description
-```
+
 
 
 
