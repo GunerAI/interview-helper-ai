@@ -69,12 +69,12 @@ This app uses **prompt chaining** with the OpenAI API:
 
 
 ## 4.	Add your OpenAI API key in .env:
-    OPENAI_API_KEY="sk-your-key-here"
+    OPENAI_API_KEY=sk-your-key-here
 
 
 
 ## 5.	(Optional) Override the model in .env:
-    OPENAI_MODEL="gpt-5-chat-latest"
+    OPENAI_MODEL=gpt-5-chat-latest
 
 ---
 
