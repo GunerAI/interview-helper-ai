@@ -90,19 +90,20 @@ def call_openai_responses(
     max_tokens: int
 ) -> str:
     """
-    Calls the Responses API and returns the text output.
+    Calls the Chat Completions API and returns the text output.
+    Compatible with openai>=1.0.
     """
-    resp = client.responses.create(
+    resp = client.chat.completions.create(
         model=model,
         temperature=temperature,
         top_p=top_p,
-        max_output_tokens=max_tokens,
-        input=[
+        max_tokens=max_tokens,
+        messages=[
             {"role": "system", "content": system},
-            {"role": "user", "content": user}
+            {"role": "user", "content": user},
         ],
     )
-    return resp.output_text
+    return resp.choices[0].message.content
 
 def try_parse_json_once(raw_text: str) -> Tuple[Optional[dict], Optional[str]]:
     """
